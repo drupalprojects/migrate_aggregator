@@ -1,0 +1,11 @@
+name = Migrate Aggregator
+description = Migrate Aggregator from Drupal 6
+package = Migration
+core = 7.x
+
+dependencies[] = aggregator
+dependencies[] = migrate
+dependencies[] = migrate_d2d
+
+files[] = aggregator.inc
+
